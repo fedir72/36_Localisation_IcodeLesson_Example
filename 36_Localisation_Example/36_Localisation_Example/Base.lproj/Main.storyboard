@@ -57,6 +57,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="myButton" destination="hlj-gT-xYz" id="RHx-ir-J89"/>
+                        <outlet property="myTitle" destination="mfJ-13-nu6" id="3dc-zq-IyZ"/>
+                        <outlet property="textView" destination="6YN-XW-bgl" id="lUG-cz-bTw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

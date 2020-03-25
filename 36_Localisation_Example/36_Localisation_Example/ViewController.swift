@@ -9,10 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var myTitle: UILabel!
+    @IBOutlet weak var myButton: UIButton!
+    @IBOutlet weak var textView: UITextView!
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       // пример локализации textview
+        textView.text =  NSLocalizedString("text_exp", comment: "" )
+        
+        
     }
 
 
